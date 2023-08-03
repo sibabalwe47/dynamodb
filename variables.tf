@@ -8,7 +8,6 @@ variable "hash_key" {
   type = string
 }
 
-
 variable "attributes" {
   type = list(object({
     name = string
